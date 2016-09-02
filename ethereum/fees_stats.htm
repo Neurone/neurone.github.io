@@ -14,7 +14,7 @@ $(function () {
             text: 'Sum of daily fees over time'
         },
         subtitle: {
-            text: 'Total spent fees: <strong>Ξ 11,229.132</strong>'
+            text: 'Total spent fees: <strong>Ξ 11,269</strong>'
         },
         xAxis: {
             type: 'datetime'
@@ -468,6 +468,27 @@ $(function () {
         <script src="js/highcharts.js"></script>
         <script src="js/exporting.js"></script>
         <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+		<p>
+		The top 3 most expensive transactions:
+		<ul>
+		<li><a href="http://etherscan.io/tx/0x9c81f44c29ff0226f835cd0a8a2f2a7eca6db52a711f8211b566fd15d3e0e8d4">2015/08/08 15:44:00</a> - <strong>14.36963</strong> - Creation of the Ethereum Foundation's multisig account</li>
+		<li><a href="http://etherscan.io/tx/0x0036551e131382d3c8be08c3c7600fd42958c6da3774cde9e44017e30ade56df">2016/06/21 18:18:06</a> - <strong>13.50000</strong> - WhiteHatDAOContractController operation (<strong>throwed exception... ^^</strong>)</li>
+		<li><a href="http://etherscan.io/tx/0xd3cc009c63ad0a2d50c3204623df8d0c8eb2775e05fc3fe1c8e9253138607279">2016/05/28 08:56:25</a> - <strong>10.70863</strong> - Gatecoin calling TheDAO</li>
+		</ul>
+		</p>
+		<p>
+		A grand total of 8 transactions didn't paid for fees at all:
+		<ul>
+		<li><a href="http://etherscan.io/tx/0x5d38479cf8a4aba60e20c661c60ad146a2cb4d5b94f246ed0273d4a4b3ef4835">10/02/2016 09:55:01</a></li>
+		<li><a href="http://etherscan.io/tx/0x922894ba3b24100547e09c37930fadf00302aa316e0acb488844cbbfb18bdc68">11/02/2016 16:48:00</a></li>
+		<li><a href="http://etherscan.io/tx/0xfc7402cef7daadc193f6f3c18ff7c732a657279e8fbe58a4c14b695aad47f959">06/03/2016 14:30:25</a></li>	
+		<li><a href="http://etherscan.io/tx/0xc3fa8399ef7922aef0ec7278f7b4b5e28e7191eba3027ca1143af2cf17acae86">22/08/2016 05:39:53</a></li>
+		<li><a href="http://etherscan.io/tx/0xaab5e7279750d3f9ba796356ad770aa0004fa6f3264f456d1e0c8ad83c650112">22/08/2016 05:39:53</a></li>
+		<li><a href="http://etherscan.io/tx/0xc6d3bc398a2fbe62dc0872afe81db2e4c4c182c275361aed7e7297731e285e49">22/08/2016 05:39:53</a></li>
+		<li><a href="http://etherscan.io/tx/0x2147bbdbc66d751623b969cef811b0e9c0acee9eb2eb3411347fb100ded77a82">30/08/2016 03:46:30</a></li>
+		<li><a href="http://etherscan.io/tx/0x3be99e938967c2678027a675b411594189650137b47896392fc41c8e471ceb25">30/08/2016 03:46:30</a></li>
+		</ul>
+		</p>
 		<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
