@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: neurone.github.io
+Token: 96bbb47fc8f8e56ea76d00181e1230b009b086023b99d87cd0f1dd2a33699540
